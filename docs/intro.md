@@ -5,7 +5,7 @@ Graph Query language 2000年后才被发明，因此没有像SQL一样经历50�
 
 就在2024年4月，iso-GQL标准正式发布，但是还没有厂家能够完全支持。 opencypher被认为是iso-GQL的蓝本，目前市占率最大的neo4j, 阿里开源的Tugraph等都以cypher其作为输入语言, 同时两家都表示将尽快完成iso-GQL标准支持。出于应用广泛度与开发者的技术力量的角度考虑， 本研究将以cypher作为NL2GQL语言选择。所有代码将以在当前Neo4j community版与Tugraph开源版成功运行返回正确为基准。
 
-## Text2Cypher 现状
+### Text2Cypher 现状
 已经有一些前人研究如
 [SpCQL: A Semantic Parsing Dataset for Converting Natural Language into Cypher(2022)](https://ir.webis.de/anthology/2022.cikm_conference-2022.406/)
 构建并开源了多达10,000条中文描述与Cypher Query的数据对， 但是受限数据质量不高与当时技术限制，最后验证准确率仅有2%。
