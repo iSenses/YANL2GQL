@@ -7,5 +7,5 @@ Project Rationale and Roadmap in [docs/intro.md](https://github.com/iSenses/YANL
 
 In Progress...
 
-Thanks for resources provided by openxlab.org.cn
+Thanks for resources provided by [OpenXLab](https://openxlab.org.cn)
 
